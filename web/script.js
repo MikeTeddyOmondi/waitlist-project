@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
     button.textContent = "Processing...";
 
     // HTTP verb - GET, POST, PUT, PATCH, DELETE
-    const response = await fetch("http://localhost:9000/waitlist", {
+    const response = await fetch("https://waitlist-project-backend.onrender.com/waitlist", {
       body: JSON.stringify({ email }),
       headers: {
         "Content-Type": "application/json",
