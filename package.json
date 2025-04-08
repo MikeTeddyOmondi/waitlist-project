@@ -1,0 +1,24 @@
+{
+  "name": "data-access-layer",
+  "version": "1.0.0",
+  "description": "data access layer ",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/index.js",
+    "makemigrations": "drizzle-kit generate",
+    "migrate": "drizzle-kit push"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.41.0",
+    "express": "^5.1.0",
+    "pg": "^8.14.1"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.6"
+  }
+}
